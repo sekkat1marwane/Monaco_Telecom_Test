@@ -43,7 +43,6 @@ public class ConsumerApplication {
 		}else
 		{
 			System.out.println("veuillez renseigner un uuid entre 1 et 5");
-
 		}
 
 	}
