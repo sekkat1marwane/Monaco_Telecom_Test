@@ -28,6 +28,7 @@ public class MessageProducer {
 	public void sendServiceId(@PathVariable int uuid)
 	{
 		processor.output().send(MessageBuilder.withPayload(uuid).build());
+		System.out.println("la fonction est executee");
 	}
 	
 	
